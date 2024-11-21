@@ -1,0 +1,87 @@
+/* Основные стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: flex-end; /* Кнопки выравнены по правому краю */
+    margin-bottom: 20px;
+}
+
+.header-buttons button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8adeff; /* Цвет кнопок */
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s; /* Плавный переход цвета при наведении */
+}
+
+.header-buttons button:hover {
+    background-color: #49cbff; /* Цвет кнопок при наведении */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Стили для контейнера с продуктами */
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Отступ между товаром */
+}
+
+/* Стили для каждого продукта */
+.product {
+    background-color: #ffffff; /* Цвет фона для товара */
+    border: 1px solid #ddd; /* Рамка вокруг товара */
+    border-radius: 8px; /* Закругленные углы */
+    padding: 20px; /* Отступы внутри блока товара */
+    text-align: center;
+    width: 200px; /* Фиксированная ширина товара */
+    height: 250px;
+}
+
+.product img {
+    width: 100%; /* Ширина изображения, чтобы оно заполняло родительский блок */
+    height: auto; /* Автоматическая высота согласно пропорциям изображения */
+    border-radius: 8px 8px 0 0; /* Закругление верхних углов изображения */
+}
+
+.product button {
+    margin-top: 10px; /* Отступ над кнопкой */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8adeff; /* Цвет кнопки */
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s; /* Плавный переход цвета при наведении */
+}
+
+.product button:hover {
+    background-color: #49cbff; /* Цвет кнопки при наведении */
+}
+
+.msg {
+    border: 2px solid;
+    border-color: #c3950d;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;    
+}
+form{
+    display: flex;
+    justify-content: center;
+    padding: 8vh;
+}

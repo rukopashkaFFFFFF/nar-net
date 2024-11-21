@@ -1,0 +1,56 @@
+/* Основные стили для body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем содержимое по горизонтали */
+}
+
+h1 {
+    text-align: center; /* Центрируем текст заголовка */
+    margin-bottom: 20px;
+}
+
+/* Стили для таблицы */
+table {
+    width: 100%;
+    max-width: 1920px; /* Максимальная ширина на 1920px */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #198bb9;
+    color: #ffffff;
+}
+
+/* Стили для кнопок */
+.button-container {
+    display: flex;
+    justify-content: center; /* Центрируем кнопки по горизонтали */
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8adeff; /* Цвет кнопок */
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s; /* Плавный переход цвета при наведении */
+}
+
+button:hover {
+    background-color: #49cbff; /* Цвет кнопок при наведении */
+}

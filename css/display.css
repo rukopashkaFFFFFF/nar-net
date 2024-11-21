@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f3f4f6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50; /* Зеленый цвет заголовка */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Светлый цвет для четных строк */
+}
+
+tr:hover {
+    background-color: #ddd; /* Цвет строки при наведении */
+}
+
+.message {
+    font-size: 1.2em;
+    color: orange;
+    text-align: center;
+    margin: 20px 0;
+}
